@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
 :root {
     scroll-behavior: smooth;
     --theme-color: #fff;
@@ -14,13 +12,15 @@
     /* --inverse-theme-color: #20232a;
 --inverse-text-color: #fff; */
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     width: auto;
@@ -116,11 +116,12 @@ body {
     align-items: center;
     margin: 0 5px;
 }
-.header-icon:hover, .header-icon-rotated:hover {
+
+.header-icon:hover,
+.header-icon-rotated:hover {
     background: gray;
     color: #fff;
 }
-
 
 .header-icon-rotated {
     transform: rotate(28deg);
@@ -221,57 +222,70 @@ body {
     } */
 }
 
+
 /*JOBS PAGE*/
+
 #img-logo {
     width: 60px;
     margin: 0;
     padding: 0;
     margin-right: 50px;
 }
-#img-logo img{
+
+#img-logo img {
     width: 60px;
 }
+
 #navbar-cont {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid rgb(209, 209, 209);
 }
+
 #navbar-cont a {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-.cont-input-search{
+
+.cont-input-search {
     width: 400px;
     position: relative;
 }
-.cont-input-search2{
 
+.cont-input-search2 {
     position: relative;
 }
+
 .cont-input-search input {
     font-size: 14px;
 }
+
 .cont-input-search2 input {
     padding-left: 30px;
 }
+
 .nav-item.active {
     border-bottom: 2px solid var(--button-color);
 }
-.svg-search{
+
+.svg-search {
     position: absolute;
     top: 8px;
     right: 5px;
 }
+
 .svg-search2 {
     position: absolute;
     top: 11px;
     left: 10px;
 }
+
 .icon-notification {
     padding: 10px;
     border-radius: 50%;
     border: 1px solid rgb(165, 165, 165);
 }
+
 .btn-add {
     background: var(--button-color);
     color: #fff;
@@ -284,21 +298,26 @@ body {
 .cont-jobs {
     margin-top: 50px;
 }
+
 .img-job {
     width: 250px;
 }
+
 .reseña {
     color: gray;
     padding-left: 5px;
     border-left: 3px solid gray;
 }
+
 .logo-marca {
     width: 100px;
 }
+
 .target-job {
     border: 1px solid rgb(201, 201, 201);
 }
-#style-icon{
+
+#style-icon {
     margin: 0;
     padding: 0;
     font-size: 16px;
