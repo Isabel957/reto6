@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ResearchGate</title>
+    <title>Sign In - ResearchGate</title>
     <link rel="shortcut icon" href="./img/brand/favicon.svg" type="image/x-icon">
     <meta name="description"
           content="Web Coorporativa."/>
@@ -26,7 +26,7 @@
     <nav class="header-nav" id="header-nav">
         <div class="header-nav__container">
             <a href="./" class="header-nav__link-logo-container">
-                <img src="img/brand/logo.svg" alt="Logo NOVOA IDS" class="header-nav__link-logo"
+                <img src="img/brand/logo_white.svg" alt="Logo NOVOA IDS" class="header-nav__link-logo"
                      id="brand"/>
             </a>
             <label for="menu" class="header-nav__menu-icon">
@@ -46,22 +46,57 @@
 </header>
 
 <main class="main">
-    <article class="slider" id="slider">
-        <div class="slider-container">
-            <div class="slider__info animate__animated animate__fadeInLeft">
-                <h2 class="slider__info-title">Discover scientific knowledge and stay connected to the world of
-                    science</h2>
-                <div class="slider__info-link-container">
-                    <a href="./singup.html" class="slider__info-link">Join for free</a>
+    <article class="page-title">
+        <div class="page-title-container animate__animated animate__fadeInLeft">
+            <h2 class="page-title__title">Sign In</h2>
+        </div>
+    </article>
+
+    <section class="signin">
+        <div class="signin-container">
+            <div class="signin__form">
+                <div class="signin__form-left"></div>
+                <div class="signin__form-right">
+                    <div class="form-container">
+                        <h2 class="signin-title">Log in</h2>
+                        <p class="signin-description">Enter your email and password to login</p>
+                        <form action="#" onsubmit="singin(event)">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="example@codigo.edu.pe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" placeholder="********" required>
+                            </div>
+                            <div class="extra">
+                                <div class="checkbox remember">
+                                    <label>
+                                        <input type="checkbox" name="rememberme" value="forever">Remember me
+                                    </label>
+                                </div>
+                                <div class="forgotten-password">
+                                    <a href="./signin.html?action=lostpassword">Forgot your password?</a>
+                                </div>
+                            </div>
+                            <button type="submit" name="submit" class="btn_three">
+                                Login
+                            </button>
+                            <div class="alter-signin">
+                                New user?
+                                <a class="alter-signin__link" href="./singup.html">Don't have an account?</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="slider__cover-image animate__animated  animate__fadeInRight">
-                <figure class="slider__image-container">
-                    <img class="slider__image" src="./img/banner_img_x2.png" alt="Banner 01"/>
+            <div class="signin__cover-image">
+                <figure class="signin__image-container animate__animated animate__fadeInRight">
+                    <img class="signin__image" src="./img/signin/login_img.png" alt="Banner 01"/>
                 </figure>
             </div>
         </div>
-    </article>
+    </section>
 
     <footer class="footer animate__animated animate__fadeInUp">
         <div class="footer-container">
@@ -138,6 +173,7 @@
 <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
         integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
         crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="./js/script.js"></script>
 </body>
 </html>
