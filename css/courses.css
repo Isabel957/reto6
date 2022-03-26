@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root {
+    scroll-behavior: smooth;
+    --theme-color: #fff;
+    --text-color: #000;
+    --background-color: #f4f4f4;
+    /* --highlight-color-1: #61dafb;
+--highlight-color-2: #ffd700; */
+    --box-shadow: #21242c80;
+    /* --code-color: #282c34; */
+    --button-color: #0080FF;
+    /* --inverse-theme-color: #20232a;
+--inverse-text-color: #fff; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    background-color: var(--background-color);
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #111;
+    height: 100%;
+}
+
+
+/*JOBS PAGE*/
+
+#img-logo {
+    width: 60px;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+#img-logo img {
+    width: 60px;
+}
+
+#navbar-cont {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#navbar-cont a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+/* .cont-input-search {
+    width: 400px;
+    position: relative;
+}
+
+.cont-input-search2 {
+    position: relative;
+}
+
+.cont-input-search input {
+    font-size: 14px;
+}
+
+.cont-input-search2 input {
+    padding-left: 30px;
+} */
+
+.nav-item.active {
+    border-bottom: 2px solid var(--button-color);
+}
+
+.svg-search {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+
+.svg-search2 {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
+
+.icon-notification {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(165, 165, 165);
+}
+
+.btn-add {
+    background: var(--button-color);
+    color: #fff;
+    padding: 0 10px;
+    border: none;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.cont-jobs {
+    margin-top: 50px;
+}
+
+.img-job {
+    width: 250px;
+}
+
+.reseña {
+    color: gray;
+    padding-left: 5px;
+    border-left: 3px solid gray;
+}
+
+.logo-marca {
+    width: 100px;
+}
+
+.target-job {
+    border: 1px solid rgb(201, 201, 201);
+}
+
+#style-icon {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+/*COURSES PAGE*/
+
+.card-container {
+    padding: 1rem 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.7rem;
+}
+
+.card {
+    /* margin: 1rem; */
+    width: auto;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 2rem;
+    overflow: hidden;
+    transition: all 0.2s cubic-bezier(0, 0, 0.5, 1);
+    box-shadow: 4px 2px 6px var(--box-shadow);
+}
+
+.card:hover {
+    box-shadow: 2px 4px 12px var(--box-shadow);
+    transform: scale(1.01);
+}
+
+.card-title {
+    height: 3rem;
+}
+
+#card-text-heigth {
+    height: 116.500px;
+}
+
+@media (min-width: 854px) {
+    .pedidos-container {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        max-width: 1024px;
+        margin: auto;
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+        padding: 5rem 6rem;
+    }
+}
