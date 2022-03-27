@@ -155,26 +155,47 @@ body {
 }
 
 .noticia {
-    height: 22rem;
+    height: auto;
     width: auto;
     background-color: var(--theme-color);
     /* border-width: 1px;
     border-color: #888;
     color: #888; */
-    margin-top: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     /* text-align: center; */
     align-content: center;
     box-shadow: 0 0px 2px rgb(0 0 0 / 18%), 0 1px 3px rgb(0 0 0 / 12%);
     text-align: center;
+    float: left;
+}
+
+.noticia-img-container {
+    background-image: url(https://c5.rgstatic.net/m/427577062382304/images/home/home-promo-bg.svg);
+    background-size: cover;
+    background-position: 50%;
+    height: 50%;
+}
+
+.noticia-img {
+    margin-top: 3rem;
+    margin-bottom: auto;
+}
+
+.noticia-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.7rem;
+    margin-bottom: 1rem;
 }
 
 .noticia-button {
     width: auto;
     height: 2.625rem;
     border-radius: 2.5px;
-    border:none;
+    border: none;
     background-color: #0080FF;
     text-align: center;
 }
@@ -184,6 +205,10 @@ body {
     vertical-align: middle;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+}
+
+.follow-aside-container {
+    display: none;
 }
 
 @media (min-width: 767px) {
@@ -220,6 +245,60 @@ body {
         margin-top: 0rem;
         border-color: #0080FF;
     } */
+    .noticia {
+        width: 63%;
+        margin-right: 0rem;
+    }
+    .follow-aside-container {
+        display: flex;
+        width: 30%;
+        height: auto;
+        background-color: var(--theme-color);
+        /* border-width: 1px;
+    border-color: #888;
+    color: #888; */
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+        margin-right: 1.77rem;
+        /* text-align: center; */
+        box-shadow: 0 0px 2px rgb(0 0 0 / 18%), 0 1px 3px rgb(0 0 0 / 12%);
+        float: right;
+    }
+    .follow-aside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .follow-tittle {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        color: #777;
+    }
+    .follow {
+        display: flex;
+        gap: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .follow-name-container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .follow-name {
+        margin: 0rem;
+        font-weight: bold;
+    }
+    .follow-ocupation {
+        margin: 0rem;
+        color: #777;
+    }
+    .follow-button {
+        margin-left: auto;
+        margin-right: 1rem;
+    }
 }
 
 
@@ -322,6 +401,7 @@ body {
     padding: 0;
     font-size: 16px;
 }
+
 #footer-cont {
     background-color: #00CABA;
     color: #fff;
