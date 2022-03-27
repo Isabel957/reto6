@@ -10,53 +10,53 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--Styles CSS-->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
     <title>Research Jobs</title>
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+
   </head>
   <body>
     <!--Start navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-cont">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-light position-sticky top-0" id="navbar-cont">
 
-        <a class="navbar-brand" href="#" id="img-logo"><img src="img/logo.jpg" alt="" ></a>
+        <a class="navbar-brand" href="home.html" id="img-logo"><img src="img/logo.jpg" alt="" ></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex; align-items:Center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home.html"><img src="img/house.svg" alt="">  Home</a>
+              <a class="nav-link " aria-current="page" href="home.html" style="display:flex"><img src="img/house.svg" alt=""> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Questions</a>
+              <a class="nav-link " href="#">Questions</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link active" href="#">Jobs</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="jobs.html">Jobs</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
           </ul>
-          <form >
-            <div class="cont-input-search">
-              <img src="img/search.svg" alt="" class="svg-search">
-              <input class="form-control me-2" type="search" placeholder="Search for researches, publications, and more" aria-label="Search">
-            </div>
-            
-          </form>
+
           <div class="cont-notification d-flex">
             <a class="header-icon-rotated" href=""><span class="material-icons">notifications</span></a>
             <a class="header-icon" href=""><span class="material-icons">mail_outline</span></a>
             <a class="header-icon" href=""><span class="material-icons">chat_bubble_outline</span></a>
             <a class="" href=""><img src="https://i.postimg.cc/bY6VpXPG/b1a46a18369ff651d685e28275758ef0.jpg"
               alt="" width="40" height="40" style="border-radius:50%"></a>
-            <button class="btn-add"><span id="header-button-icon" class="material-icons">add_circle_outline</span> Add new</button>
-          </div>
+              <button class="btn-add"><a href="index.html" class="text-white text-decoration-none px-3">Salir</a></button>
+            </div>
         </div>
 
     </nav>
     <!--End navbar-->
+
     <!--Start jobs-->
       <div class="container cont-jobs">
         <div class="row ">
@@ -227,18 +227,13 @@
               
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
 
         </div>
       </div>
     <!--End jobs-->
+    <footer class=" p-3 mt-5" id="footer-cont">
+      <p class="text-center m-0 ">GRUPO 5 - BECARIOS CÓDIGO</p>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

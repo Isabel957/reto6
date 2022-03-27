@@ -10,59 +10,49 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="icon" type="image/png" href="https://www.researchgate.net/favicon-96x96.png" sizes="96x96">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>ResearchGate | Clone</title>
 </head>
 
 <body class="body">
-    <header class="header">
-        <a class="header-logo" href="https://isabel957.github.io/reto6/">
-            <img src="https://c5.rgstatic.net/m/433110575315790/images/template/brand-header-logo.svg" alt="ResearchGate logo" width="124" height="17">
-        </a>
+    <!--Start navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-cont">
 
-        <div class="header-options">
-            <ul class="header-ul-options">
-                <li>Home</li>
-                <li>Questions</li>
-                <li><a href="jobs.html">Jobs</a> </li>
-                <li>Search</li>
-                <li><a href="courses.html">Courses</a></li>
-            </ul>
-            <div class="header-icons">
-                <ul class="header-ul-icons">
-                    <li> <a class="header-icon-rotated" href=""><span class="material-icons">notifications</span></a>
-                    </li>
-                    <li> <a class="header-icon" href=""><span class="material-icons">mail_outline</span></a>
-                    </li>
-                    <li> <a class="header-icon" href=""><span class="material-icons">chat_bubble_outline</span></a>
-                    </li>
-                    <li class="header-">
-                        <span>
-                            <div class="no"
-                                aria-haspopup="true" aria-expanded="false">
-                                <div class="">
-                                    <a href="">
-                                        <img src="https://i.postimg.cc/bY6VpXPG/b1a46a18369ff651d685e28275758ef0.jpg"
-                                            alt="Turing" width="40" height="40" style="border-radius:50%">
-                                    </a>
-                                </div>
-                            </div>
-                        </span>
-                    </li>
-                    <li class="">
-                        <div class="">
-                            <button class="header-button" type="button">
-                                <span id="header-button-icon" class="material-icons">add_circle_outline</span>
-                                <span class="header-button-text">Add new</span>
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+        <a class="navbar-brand" href="home.html" id="img-logo"><img src="img/logo.jpg" alt="" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex; align-items:Center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html" style="display:flex"><img src="img/house.svg" alt=""> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jobs.html">Jobs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+          </ul>
+
+          <div class="cont-notification d-flex">
+            <a class="header-icon-rotated" href=""><span class="material-icons">notifications</span></a>
+            <a class="header-icon" href=""><span class="material-icons">mail_outline</span></a>
+            <a class="header-icon" href=""><span class="material-icons">chat_bubble_outline</span></a>
+            <a class="" href=""><img src="https://i.postimg.cc/bY6VpXPG/b1a46a18369ff651d685e28275758ef0.jpg"
+              alt="" width="40" height="40" style="border-radius:50%"></a>
+              <button class="btn-add"><a href="index.html" class="text-white text-decoration-none px-3">Salir</a></button>
+          </div>
         </div>
-    </header>
+
+    </nav>
+    <!--End navbar-->
 
     <section class="noticia-container">
 
@@ -78,6 +68,9 @@
         </div>
 
     </section>
+    <footer class=" p-3 mt-5" id="footer-cont" style="position: absolute; bottom: 0; width:100%">
+        <p class="text-center m-0 ">GRUPO 5 - BECARIOS CÓDIGO</p>
+      </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

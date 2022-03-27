@@ -174,8 +174,8 @@ body {
     width: auto;
     height: 2.625rem;
     border-radius: 2.5px;
-    border-color: var(--button-color);
-    background-color: var(--button-color);
+    border:none;
+    background-color: #0080FF;
     text-align: center;
 }
 
@@ -287,7 +287,7 @@ body {
 }
 
 .btn-add {
-    background: var(--button-color);
+    background: #0080FF;
     color: #fff;
     padding: 0 10px;
     border: none;
@@ -321,4 +321,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
+}
+#footer-cont {
+    background-color: #00CABA;
+    color: #fff;
 }

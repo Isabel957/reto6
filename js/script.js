@@ -17,12 +17,12 @@ function myFunction() {
     if (window.pageYOffset > sticky) {
         header.classList.add('header-nav__sticky');
         if (pathnameArray[pathnameArray.length - 1]) {
-            brand.src = './img/brand/logo.svg';
+            brand.src = './img/logo.jpg';
         }
     } else {
         header.classList.remove('header-nav__sticky');
         if (pathnameArray[pathnameArray.length - 1]) {
-            brand.src = './img/brand/logo_white.svg';
+            brand.src = './img/logo.jpg';
         }
     }
 }
