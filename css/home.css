@@ -4,13 +4,8 @@
     --theme-color: #fff;
     --text-color: #000;
     --background-color: #f4f4f4;
-    /* --highlight-color-1: #61dafb;
---highlight-color-2: #ffd700; */
     --box-shadow: #21242c80;
-    /* --code-color: #282c34; */
     --button-color: #0080FF;
-    /* --inverse-theme-color: #20232a;
---inverse-text-color: #fff; */
 }
 
 * {
@@ -25,7 +20,6 @@ body {
     font-family: 'Roboto', sans-serif;
     width: auto;
     background-color: var(--background-color);
-    /* position: relative; */
     margin: 0;
     padding: 0;
     line-height: 1.5;
@@ -68,7 +62,6 @@ body {
     left: 0;
     right: 0;
     top: 0;
-    /* align-items: center; */
 }
 
 .header-options {
@@ -90,7 +83,6 @@ body {
 
 .header-icons {
     margin: auto;
-    /* vertical-align: middle; */
 }
 
 .header-icon-rotated,
@@ -104,14 +96,8 @@ body {
     color: rgb(158, 158, 158);
     text-align: center;
     align-content: center;
-    /* box-sizing: content-box; */
-    /* padding: 0 auto; */
     cursor: pointer;
-    /* box-sizing: border-box; */
-    /* outline: none; */
-    /* overflow: hidden; */
     display: inline-block;
-    /* white-space: nowrap; */
     transition: 0.1s linear;
     align-items: center;
     margin: 0 5px;
@@ -158,13 +144,9 @@ body {
     height: auto;
     width: auto;
     background-color: var(--theme-color);
-    /* border-width: 1px;
-    border-color: #888;
-    color: #888; */
     margin-top: 3rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    /* text-align: center; */
     align-content: center;
     box-shadow: 0 0px 2px rgb(0 0 0 / 18%), 0 1px 3px rgb(0 0 0 / 12%);
     text-align: center;
@@ -229,22 +211,10 @@ body {
         width: 3.75rem;
         height: 3.75rem;
     }
-    /* .header-ul {
-        padding-top: auto;
-        padding-right: 0;
-        padding-bottom: auto;
-        padding-left: 10rem;
-    } */
     .header-button {
         display: block;
         color: var(--button-color);
     }
-    /* #header-button-icon {
-        color: var(--theme-color);
-        vertical-align: middle;
-        margin-top: 0rem;
-        border-color: #0080FF;
-    } */
     .noticia {
         width: 63%;
         margin-right: 0rem;
@@ -254,13 +224,9 @@ body {
         width: 30%;
         height: auto;
         background-color: var(--theme-color);
-        /* border-width: 1px;
-    border-color: #888;
-    color: #888; */
         margin-top: 3rem;
         margin-left: 0.5rem;
         margin-right: 1.77rem;
-        /* text-align: center; */
         box-shadow: 0 0px 2px rgb(0 0 0 / 18%), 0 1px 3px rgb(0 0 0 / 12%);
         float: right;
     }
