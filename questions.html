@@ -15,6 +15,7 @@
     <!--Styles CSS-->
     <link rel="stylesheet" href="css/courses.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -25,7 +26,7 @@
 
 <body>
 <!--Start navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-cont">
+<nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky top-0" id="navbar-cont">
 
     <a class="navbar-brand" href="#" id="img-logo"><img src="img/logo.jpg" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -37,8 +38,8 @@
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="./"><img src="img/house.svg" alt=""> Home</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="questions.html">Questions</a>
+            <li class="nav-item ">
+                <a class="nav-link active" href="questions.html">Questions</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="jobs.html">Jobs</a>
@@ -47,13 +48,6 @@
                 <a class="nav-link" href="courses.html">Courses</a>
             </li>
         </ul>
-        <form>
-            <div class="cont-input-search">
-                <img src="img/search.svg" alt="" class="svg-search">
-                <input class="form-control me-2" type="search"
-                       placeholder="Search for researches, publications, and more" aria-label="Search">
-            </div>
-
         </form>
         <div class="cont-notification d-flex">
             <a class="header-icon-rotated" href=""><span class="material-icons">notifications</span></a>
@@ -297,8 +291,9 @@
     </div>
 </section>
 
-
-<!--End jobs-->
+<footer class=" p-3 mt-5" id="footer-cont" >
+    <p class="text-center m-0 ">GRUPO 5 - BECARIOS CÓDIGO</p>
+</footer>
 
 <!-- Optional JavaScript; choose one of the two! -->
 
